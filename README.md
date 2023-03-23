@@ -54,7 +54,7 @@ listKota = jws.data_kabupaten_kota(prov_id)
 kota_id = listKota[7]['value']
 jadwal = jws.jadwal_shalat(prov_id, kota_id, 3, 2023)
 
-print(jadwal) # tampilkan jadwal satu bulan
+print(jadwal) # tampilkan jadwal shalat satu bulan
 print(jadwal['data']['2023-03-24']) # tampilkan jadwal shalat tanggal 24 Maret 2023
 ```
 
