@@ -46,13 +46,16 @@ jws = jadwal_shalat.JadwalShalat()
 listProv = jws.data_provinsi()
 
 # contoh ini menggunakan index list provinsi 13 (JAWA TENGAH)
-prov_id = prov[13]['value']
+prov_id = listProv[13]['value']
 listKota = jws.data_kabupaten_kota(prov_id)
 
 # contoh ini menggunakan index list kabupaten/kota 7 (KAB. DEMAK)
 # bulan 3 (Maret) tahun 2023
+kota_id = listKota[7]['value']
 jadwal = jws.jadwal_shalat(prov_id, kota_id, 3, 2023)
 
 print(jadwal) # tampilkan jadwal satu bulan
 print(jadwal['data']['2023-03-24']) # tampilkan jadwal shalat tanggal 24 Maret 2023
 ```
+
+Terima kasih.
