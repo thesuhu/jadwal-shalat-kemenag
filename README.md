@@ -1,4 +1,5 @@
-# JADWAL SHALAT KEMENAG
+# Jadwal Shalat Kemenag
+
 [![PyPI version](https://badge.fury.io/py/jadwal-shalat-kemenag.svg)](https://badge.fury.io/py/jadwal-shalat-kemenag)
 
 Jadwal shalat untuk wilayah Indonesia berdasarkan data dari website [Ditjen Bimas Islam Kementerian Agama](https://bimasislam.kemenag.go.id/jadwalshalat).
